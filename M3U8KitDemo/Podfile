@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'M3U8KitDemo' do
+  pod 'M3U8Kit2'
+end
