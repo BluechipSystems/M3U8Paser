@@ -24,7 +24,7 @@
         
         NSTimeInterval begin = [NSDate timeIntervalSinceReferenceDate];
         
-        NSString *baseURL = @"http://hls.ted.com/";
+        NSString *baseURL = @"https://hls.ted.com/";
         NSString *path = [[NSBundle mainBundle] pathForResource:@"769" ofType:@"m3u8"];
         NSError *error;
         NSString *str = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];

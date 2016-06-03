@@ -468,7 +468,7 @@
 				GCC_PREFIX_HEADER = "M3U8KitDemo/M3U8KitDemo-Prefix.pch";
 				INFOPLIST_FILE = "M3U8KitDemo/M3U8KitDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ilegendsoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -489,7 +489,7 @@
 				GCC_PREFIX_HEADER = "M3U8KitDemo/M3U8KitDemo-Prefix.pch";
 				INFOPLIST_FILE = "M3U8KitDemo/M3U8KitDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ilegendsoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
