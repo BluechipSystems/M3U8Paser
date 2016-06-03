@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6C20AD11D0135CF007FF2FB /* M3U8Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C20AD01D0135CF007FF2FB /* M3U8Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6C20AD21D0135F0007FF2FB /* M3U8Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C20AD01D0135CF007FF2FB /* M3U8Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6C20AD31D0135F0007FF2FB /* M3U8Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C20AD01D0135CF007FF2FB /* M3U8Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C20AD11D0135CF007FF2FB /* M3U8Kit2.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C20AD01D0135CF007FF2FB /* M3U8Kit2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C20AD21D0135F0007FF2FB /* M3U8Kit2.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C20AD01D0135CF007FF2FB /* M3U8Kit2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C20AD31D0135F0007FF2FB /* M3U8Kit2.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C20AD01D0135CF007FF2FB /* M3U8Kit2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		F6C20ACA1D0134AA007FF2FB /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		F6C20ACB1D0134AA007FF2FB /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		F6C20ACC1D0134AA007FF2FB /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
-		F6C20AD01D0135CF007FF2FB /* M3U8Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8Kit.h; sourceTree = "<group>"; };
+		F6C20AD01D0135CF007FF2FB /* M3U8Kit2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8Kit2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		9D05821F18E52DF500A12776 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F6C20AD01D0135CF007FF2FB /* M3U8Kit.h */,
+				F6C20AD01D0135CF007FF2FB /* M3U8Kit2.h */,
 				9D05825518E52E9500A12776 /* M3U8PlaylistModel.h */,
 				9D05825618E52E9500A12776 /* M3U8PlaylistModel.m */,
 				9D05825B18E52E9500A12776 /* M3U8TagsAndAttributes.h */,
@@ -172,7 +172,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C20AD11D0135CF007FF2FB /* M3U8Kit.h in Headers */,
+				F6C20AD11D0135CF007FF2FB /* M3U8Kit2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +180,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C20AD21D0135F0007FF2FB /* M3U8Kit.h in Headers */,
+				F6C20AD21D0135F0007FF2FB /* M3U8Kit2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +188,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6C20AD31D0135F0007FF2FB /* M3U8Kit.h in Headers */,
+				F6C20AD31D0135F0007FF2FB /* M3U8Kit2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +614,7 @@
 				F6C20AA21D012DA7007FF2FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6C20ABA1D012DDB007FF2FB /* Build configuration list for PBXNativeTarget "M3U8Kit2 watchOS" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +623,7 @@
 				F6C20ABC1D012DDB007FF2FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6C20AC71D012DF9007FF2FB /* Build configuration list for PBXNativeTarget "M3U8Kit2 tvOS" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +632,7 @@
 				F6C20AC91D012DF9007FF2FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

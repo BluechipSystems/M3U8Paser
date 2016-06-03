@@ -17,13 +17,11 @@
 		9D1BF8321906009800E38ABD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1BF8301906009800E38ABD /* Main_iPad.storyboard */; };
 		9D1BF8351906009800E38ABD /* ILSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BF8341906009800E38ABD /* ILSViewController.m */; };
 		9D1BF8371906009800E38ABD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1BF8361906009800E38ABD /* Images.xcassets */; };
-		9D1BF83E1906009800E38ABD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BF83D1906009800E38ABD /* XCTest.framework */; };
 		9D1BF83F1906009800E38ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BF81B1906009800E38ABD /* Foundation.framework */; };
 		9D1BF8401906009800E38ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BF81F1906009800E38ABD /* UIKit.framework */; };
 		9D1BF8481906009800E38ABD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D1BF8461906009800E38ABD /* InfoPlist.strings */; };
 		9D1BF84A1906009800E38ABD /* M3U8KitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BF8491906009800E38ABD /* M3U8KitDemoTests.m */; };
 		9D1BF8541906010B00E38ABD /* 769.m3u8 in Resources */ = {isa = PBXBuildFile; fileRef = 9D1BF8531906010B00E38ABD /* 769.m3u8 */; };
-		9D1BF86F1906037300E38ABD /* M3U8Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1BF86E1906037300E38ABD /* M3U8Kit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +31,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9D1BF8171906009800E38ABD;
 			remoteInfo = M3U8KitDemo;
+		};
+		F6C20ADA1D0156DF007FF2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C20AD41D0156DF007FF2FB /* M3U8Kit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6C20A9B1D012DA7007FF2FB;
+			remoteInfo = "M3U8Kit2 iOS";
+		};
+		F6C20ADC1D0156DF007FF2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C20AD41D0156DF007FF2FB /* M3U8Kit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6C20AB51D012DDB007FF2FB;
+			remoteInfo = "M3U8Kit2 watchOS";
+		};
+		F6C20ADE1D0156DF007FF2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C20AD41D0156DF007FF2FB /* M3U8Kit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6C20AC21D012DF9007FF2FB;
+			remoteInfo = "M3U8Kit2 tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,12 +72,11 @@
 		9D1BF8341906009800E38ABD /* ILSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILSViewController.m; sourceTree = "<group>"; };
 		9D1BF8361906009800E38ABD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D1BF83C1906009800E38ABD /* M3U8KitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M3U8KitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1BF83D1906009800E38ABD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9D1BF8451906009800E38ABD /* M3U8KitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "M3U8KitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		9D1BF8471906009800E38ABD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D1BF8491906009800E38ABD /* M3U8KitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3U8KitDemoTests.m; sourceTree = "<group>"; };
 		9D1BF8531906010B00E38ABD /* 769.m3u8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 769.m3u8; sourceTree = "<group>"; };
-		9D1BF86E1906037300E38ABD /* M3U8Kit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = M3U8Kit.framework; path = ../../ILSLib/M3U8Kit.framework; sourceTree = "<group>"; };
+		F6C20AD41D0156DF007FF2FB /* M3U8Kit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = M3U8Kit.xcodeproj; path = ../M3U8Kit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +86,6 @@
 			files = (
 				9D1BF81E1906009800E38ABD /* CoreGraphics.framework in Frameworks */,
 				9D1BF8201906009800E38ABD /* UIKit.framework in Frameworks */,
-				9D1BF86F1906037300E38ABD /* M3U8Kit.framework in Frameworks */,
 				9D1BF81C1906009800E38ABD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1BF83E1906009800E38ABD /* XCTest.framework in Frameworks */,
 				9D1BF8401906009800E38ABD /* UIKit.framework in Frameworks */,
 				9D1BF83F1906009800E38ABD /* Foundation.framework in Frameworks */,
 			);
@@ -108,11 +124,10 @@
 		9D1BF81A1906009800E38ABD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D1BF86E1906037300E38ABD /* M3U8Kit.framework */,
+				F6C20AD41D0156DF007FF2FB /* M3U8Kit.xcodeproj */,
 				9D1BF81B1906009800E38ABD /* Foundation.framework */,
 				9D1BF81D1906009800E38ABD /* CoreGraphics.framework */,
 				9D1BF81F1906009800E38ABD /* UIKit.framework */,
-				9D1BF83D1906009800E38ABD /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +175,16 @@
 				9D1BF8461906009800E38ABD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6C20AD51D0156DF007FF2FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C20ADB1D0156DF007FF2FB /* M3U8Kit2.framework */,
+				F6C20ADD1D0156DF007FF2FB /* M3U8Kit2.framework */,
+				F6C20ADF1D0156DF007FF2FB /* M3U8Kit2.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +251,12 @@
 			mainGroup = 9D1BF80F1906009800E38ABD;
 			productRefGroup = 9D1BF8191906009800E38ABD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F6C20AD51D0156DF007FF2FB /* Products */;
+					ProjectRef = F6C20AD41D0156DF007FF2FB /* M3U8Kit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9D1BF8171906009800E38ABD /* M3U8KitDemo */,
@@ -233,6 +264,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F6C20ADB1D0156DF007FF2FB /* M3U8Kit2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = M3U8Kit2.framework;
+			remoteRef = F6C20ADA1D0156DF007FF2FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F6C20ADD1D0156DF007FF2FB /* M3U8Kit2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = M3U8Kit2.framework;
+			remoteRef = F6C20ADC1D0156DF007FF2FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F6C20ADF1D0156DF007FF2FB /* M3U8Kit2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = M3U8Kit2.framework;
+			remoteRef = F6C20ADE1D0156DF007FF2FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9D1BF8161906009800E38ABD /* Resources */ = {
