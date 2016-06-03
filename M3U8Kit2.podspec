@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "M3U8Kit2"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A paser for M3U8"
 
   # This description is used to generate tags and improve search results.
