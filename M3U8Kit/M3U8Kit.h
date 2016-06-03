@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#import <M3U8Kit/M3U8PlaylistModel.h>
-#import <M3U8Kit/M3U8TagsAndAttributes.h>
+#import "M3U8PlaylistModel.h"
+#import "M3U8TagsAndAttributes.h"
 
 //! Project version number for M3U8Kit.
 FOUNDATION_EXPORT double M3U8KitVersionNumber;
