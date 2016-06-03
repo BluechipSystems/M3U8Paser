@@ -2,28 +2,18 @@
 //  M3U8Kit.h
 //  M3U8Kit
 //
-//  Created by Oneday on 13-1-11.
-//  Copyright (c) 2013年 0day. All rights reserved.
+//  Created by Don on 6/3/16.
+//  Copyright © 2016 Allen. All rights reserved.
 //
 
-#ifndef M3U8Kit_M3U8Kit_h
-#define M3U8Kit_M3U8Kit_h
+#import <UIKit/UIKit.h>
 
-#import "M3U8ExtXStreamInf.h"
-#import "M3U8ExtXStreamInfList.h"
+//! Project version number for M3U8Kit.
+FOUNDATION_EXPORT double M3U8KitVersionNumber;
 
-#import "M3U8ExtXMedia.h"
-#import "M3U8ExtXMediaList.h"
+//! Project version string for M3U8Kit.
+FOUNDATION_EXPORT const unsigned char M3U8KitVersionString[];
 
-#import "M3U8MasterPlaylist.h"
+// In this header, you should import all the public headers of your framework using statements like #import <M3U8Kit/PublicHeader.h>
 
-#import "M3U8SegmentInfo.h"
-#import "M3U8SegmentInfoList.h"
 
-#import "M3U8MediaPlaylist.h"
-
-#import "M3U8PlaylistModel.h"
-
-#import "NSString+m3u8.h"
-
-#endif
