@@ -2,10 +2,10 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat
             )](http://mit-license.org)
-[![Platform](http://img.shields.io/badge/platform-ios_osx_tvos-lightgrey.svg?style=flat
+[![Platform](http://img.shields.io/badge/platform-ios_osx_tvos_watchos-lightgrey.svg?style=flat
              )](https://developer.apple.com/resources/)
 
-A paser for M3U8
+A paser of M3U8 for iOS/OS X/watchOS/tvOS
 
 # Setup #
 
