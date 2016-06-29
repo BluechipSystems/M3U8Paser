@@ -25,6 +25,9 @@
 
 @interface M3U8SegmentInfo : NSObject
 
+@property (readonly, nonatomic) NSString *title;
+@property (readonly, nonatomic) NSString *tvgLogo;
+@property (readonly, nonatomic) NSString *groupTitle;
 @property (readonly, nonatomic) NSTimeInterval duration;
 @property (readonly, nonatomic) NSString *URI;
 

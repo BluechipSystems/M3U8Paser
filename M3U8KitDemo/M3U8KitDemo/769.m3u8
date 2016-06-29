@@ -1,62 +1,330 @@
 #EXTM3U
-#EXT-X-VERSION:4
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=915685,PROGRAM-ID=1,CODECS="avc1.42c01e,mp4a.40.2",RESOLUTION=640x360,SUBTITLES="subs"
-http://hls.ted.com/talks/769/video/600k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=131499,PROGRAM-ID=1,CODECS="avc1.42c00c,mp4a.40.2",RESOLUTION=320x180,SUBTITLES="subs"
-/talks/769/video/64k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=303297,PROGRAM-ID=1,CODECS="avc1.42c015,mp4a.40.2",RESOLUTION=512x288,SUBTITLES="subs"
-/talks/769/video/180k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=548342,PROGRAM-ID=1,CODECS="avc1.42c015,mp4a.40.2",RESOLUTION=512x288,SUBTITLES="subs"
-/talks/769/video/320k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=739016,PROGRAM-ID=1,CODECS="avc1.42c015,mp4a.40.2",RESOLUTION=512x288,SUBTITLES="subs"
-/talks/769/video/450k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=1354552,PROGRAM-ID=1,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=853x480,SUBTITLES="subs"
-/talks/769/video/950k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=2112869,PROGRAM-ID=1,CODECS="avc1.64001f,mp4a.40.2",RESOLUTION=853x480,SUBTITLES="subs"
-/talks/769/video/1500k.m3u8?sponsor=Ripple
-#EXT-X-STREAM-INF:AUDIO="600k",BANDWIDTH=67880,PROGRAM-ID=1,CODECS="mp4a.40.2",SUBTITLES="subs"
-/talks/769/audio/600k.m3u8?sponsor=Ripple
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv1.jpg" group-title="1>CCTV", CCTV 1-综合
+http://10.0.1.201:8002/cctv1.mp4
 
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=65531,PROGRAM-ID=1,CODECS="avc1.42c00c",RESOLUTION=320x180,URI="http://hls.ted.com/talks/769/video/64k_iframe.m3u8?sponsor=Ripple"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=137561,PROGRAM-ID=1,CODECS="avc1.42c015",RESOLUTION=512x288,URI="/talks/769/video/180k_iframe.m3u8?sponsor=Ripple"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=188000,PROGRAM-ID=1,CODECS="avc1.42c015",RESOLUTION=512x288,URI="/talks/769/video/320k_iframe.m3u8?sponsor=Ripple"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=216827,PROGRAM-ID=1,CODECS="avc1.42c015",RESOLUTION=512x288,URI="/talks/769/video/450k_iframe.m3u8?sponsor=Ripple"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=276987,PROGRAM-ID=1,CODECS="avc1.42c01e",RESOLUTION=640x360,URI="/talks/769/video/600k_iframe.m3u8?sponsor=Ripple"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=413600,PROGRAM-ID=1,CODECS="avc1.4d401f",RESOLUTION=853x480,URI="http://hls.ted.com/talks/769/video/950k_iframe.m3u8?sponsor=Ripple"
-#EXT-X-I-FRAME-STREAM-INF:BANDWIDTH=495067,PROGRAM-ID=1,CODECS="avc1.64001f",RESOLUTION=853x480,URI="/talks/769/video/1500k_iframe.m3u8?sponsor=Ripple"
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv2.jpg" group-title="1>CCTV", CCTV 2-财经
+http://10.0.1.201:8002/cctv2.mp4
 
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="600k",LANGUAGE="eng",NAME="Audio",AUTOSELECT=YES,DEFAULT=YES,URI="http://hls.ted.com/talks/769/audio/600k.m3u8?sponsor=Ripple",BANDWIDTH=614400
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="ar",NAME="Arabic",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/ar.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="bs",NAME="Bosnian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/bs.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="bg",NAME="Bulgarian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/bg.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="ca",NAME="Catalan",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/ca.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="zh-cn",NAME="Chinese, Simplified",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="http://hls.ted.com/talks/769/subtitles/zh-cn.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="zh-tw",NAME="Chinese, Traditional",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/zh-tw.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="hr",NAME="Croatian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/hr.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="cs",NAME="Czech",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/cs.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="nl",NAME="Dutch",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/nl.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="en",NAME="English",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/en.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="fr",NAME="French",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/fr.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="de",NAME="German",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/de.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="el",NAME="Greek",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/el.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="he",NAME="Hebrew",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/he.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="hu",NAME="Hungarian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/hu.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="id",NAME="Indonesian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/id.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="it",NAME="Italian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/it.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="ja",NAME="Japanese",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/ja.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="ko",NAME="Korean",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/ko.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="lt",NAME="Lithuanian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/lt.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="mk",NAME="Macedonian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/mk.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="fa",NAME="Persian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/fa.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="pl",NAME="Polish",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/pl.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="pt",NAME="Portuguese",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/pt.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="pt-br",NAME="Portuguese, Brazilian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/pt-br.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="ro",NAME="Romanian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/ro.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="ru",NAME="Russian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/ru.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="sk",NAME="Slovak",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/sk.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="es",NAME="Spanish",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/es.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="tr",NAME="Turkish",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/tr.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="uk",NAME="Ukrainian",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/uk.m3u8?sponsor=Ripple"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",LANGUAGE="vi",NAME="Vietnamese",AUTOSELECT=YES,DEFAULT=NO,FORCED=NO,URI="/talks/769/subtitles/vi.m3u8?sponsor=Ripple"
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv3.jpg" group-title="1>CCTV", CCTV 3-综艺
+http://10.0.1.201:8002/cctv3.mp4
 
-baseURL=“http://hls.ted.com”
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv4.jpg" group-title="1>CCTV", CCTV 4-中文国际
+http://10.0.1.201:8002/cctv4.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv5.jpg" group-title="1>CCTV", CCTV 5-体育
+http://10.0.1.201:8002/cctv5.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv6.jpg" group-title="1>CCTV", CCTV 6-电影
+http://10.0.1.201:8002/cctv6.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv7.jpg" group-title="1>CCTV", CCTV 7-军事农业
+http://10.0.1.201:8002/cctv7.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv8.jpg" group-title="1>CCTV", CCTV 8-电视剧
+http://10.0.1.201:8002/cctv8.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv9.jpg" group-title="1>CCTV", CCTV 9-记录
+http://10.0.1.201:8002/cctvjilu.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv10.jpg" group-title="1>CCTV", CCTV 10-科教
+http://10.0.1.201:8002/cctv10.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv11.jpg" group-title="1>CCTV", CCTV 11-戏曲
+http://10.0.1.201:8002/cctv11.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv12.jpg" group-title="1>CCTV", CCTV 12-社会与法
+http://10.0.1.201:8002/cctv12.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv13.jpg" group-title="1>CCTV", CCTV 13-新闻
+http://10.0.1.201:8002/cctv13.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv14.jpg" group-title="1>CCTV", CCTV 14-少儿
+http://10.0.1.201:8002/cctvchild.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv15.jpg" group-title="1>CCTV", CCTV 15-音乐
+http://10.0.1.201:8002/cctv15.mp4
+
+#EXTINF:-1 tvg-logo="http://blogs.nottingham.ac.uk/chinesestudies/files/2014/11/CCTV-Logo.jpg" group-title="1>CCTV", CCTV NEWS
+http://10.0.1.201:8002/cctv9.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/cctv5+.jpg" group-title="1>CCTV", CCTV 5-体育+
+http://10.0.1.201:8002/cctv5plus.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/ahws.jpg" group-title="2>CN卫视", 安徽卫视
+http://10.0.1.201:8002/anhui.mp4
+
+#EXTINF:-1 tvg-logo="http://7xsk44.com2.z0.glb.clouddn.com/bjws.jpg" group-title="2>CN卫视", 北京卫视
+http://10.0.1.201:8002/btv1.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 重庆卫视
+http://10.0.1.201:8002/chongqing.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 东方卫视
+http://10.0.1.201:8002/dongfang.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 东南卫视
+http://10.0.1.201:8002/dongnan.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 广东卫视
+http://10.0.1.201:8002/guangdong.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 广西卫视
+http://10.0.1.201:8002/guangxi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 甘肃卫视
+http://10.0.1.201:8002/gansu.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 贵州卫视
+http://10.0.1.201:8002/guizhou.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 河北卫视
+http://10.0.1.201:8002/hebei.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 河南卫视
+http://10.0.1.201:8002/henan.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 黑龙江卫视
+http://10.0.1.201:8002/heilongjiang.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 湖北卫视
+http://10.0.1.201:8002/hubei.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 吉林卫视
+http://10.0.1.201:8002/jilin.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 江西卫视
+http://10.0.1.201:8002/jiangxi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 康巴卫视
+http://10.0.1.201:8002/kangba.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 辽宁卫视
+http://10.0.1.201:8002/liaoning.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 旅游卫视
+http://10.0.1.201:8002/travel.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 内蒙古卫视
+http://10.0.1.201:8002/neimenggu.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 宁夏卫视
+http://10.0.1.201:8002/ningxia.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 青海卫视
+http://10.0.1.201:8002/qinghai.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 山东卫视
+http://10.0.1.201:8002/shandong.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 山东教育台
+http://10.0.1.201:8002/sdetv.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 深圳卫视
+http://10.0.1.201:8002/shenzhen.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 陕西卫视
+http://10.0.1.201:8002/shan3xi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 山西卫视
+http://10.0.1.201:8002/shan1xi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 四川卫视
+http://10.0.1.201:8002/sichuan.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 天津卫视
+http://10.0.1.201:8002/tianjin.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 西藏卫视
+http://10.0.1.201:8002/xizang.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 厦门卫视
+http://10.0.1.201:8002/xiamen.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 新疆卫视
+http://10.0.1.201:8002/xinjiang.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 香港卫视
+http://10.0.1.201:8002/xianggangweishi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 延边卫视
+http://10.0.1.201:8002/yanbian.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 云南卫视
+http://10.0.1.201:8002/yunnan.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 浙江卫视
+http://10.0.1.201:8002/zhejiang.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", CCTV中学生
+http://10.0.1.201:8002/zhongxuesheng.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", CCTV新科动漫
+http://10.0.1.201:8002/xinkedongman.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", CCTV电视指南
+http://10.0.1.201:8002/zhinan.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV文艺
+http://10.0.1.201:8002/btv2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV科教
+http://10.0.1.201:8002/btv3.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV影视
+http://10.0.1.201:8002/btv4.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV财经
+http://10.0.1.201:8002/btv5.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV体育
+http://10.0.1.201:8002/btv6.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV生活
+http://10.0.1.201:8002/btv7.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV青少
+http://10.0.1.201:8002/btv8.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", BTV新闻
+http://10.0.1.201:8002/btv9.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 滨海新闻综合
+http://10.0.1.201:8002/tianjinbh.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 滨海综艺频道
+http://10.0.1.201:8002/tianjinbh2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 广西综艺
+http://10.0.1.201:8002/gxzy.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 潮州综合
+http://10.0.1.201:8002/cztv1.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 潮州公共
+http://10.0.1.201:8002/cztv2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 佛山新闻综合
+http://10.0.1.201:8002/foshanxinwen.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 韶关综合
+http://10.0.1.201:8002/shaoguanzonghe.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 珠海一套
+http://10.0.1.201:8002/zhuhaiyitao.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 珠海二套
+http://10.0.1.201:8002/zhuhaiertao.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 成都新闻综合
+http://10.0.1.201:8002/cdtv1.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 成都公共
+http://10.0.1.201:8002/cdtv5.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 大连一套
+http://10.0.1.201:8002/daliannews.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 湖北公共
+http://10.0.1.201:8002/hubeigonggong.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 湖北教育
+http://10.0.1.201:8002/hubeijiaoyu.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 湖北影视
+http://10.0.1.201:8002/hubeiyingshi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 湖北经视
+http://10.0.1.201:8002/hubeijingshi.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 荆州新闻频道
+http://10.0.1.201:8002/jznews.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 湖北垄上频道
+http://10.0.1.201:8002/jzlongs.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 襄阳广播电视台
+http://10.0.1.201:8002/xiangyangtai.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 维语新闻综合
+http://10.0.1.201:8002/xjtv2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 哈语新闻综合
+http://10.0.1.201:8002/xjtv3.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 维语综艺
+http://10.0.1.201:8002/xjtv5.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 哈语综艺
+http://10.0.1.201:8002/xjtv8.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 维语经济生活
+http://10.0.1.201:8002/xjtv9.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 石家庄三套
+http://10.0.1.201:8002/shijiazhuangsantao.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 邢台综合
+http://10.0.1.201:8002/xingtaizonghe.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 邢台生活
+http://10.0.1.201:8002/xingtaishenghuo.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 邢台公共
+http://10.0.1.201:8002/xingtaigonggong.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 邢台沙河
+http://10.0.1.201:8002/xingtaishahe.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 济南新闻
+http://10.0.1.201:8002/jinannews.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 丽江综合频道
+http://10.0.1.201:8002/lijiangnews.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 丽江公共频道
+http://10.0.1.201:8002/lijiangpublic.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 蒙语频道
+http://10.0.1.201:8002/neimenggu2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 南京新闻
+http://10.0.1.201:8002/nanjingnews.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 南通新闻频道
+http://10.0.1.201:8002/nantongxinwen.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 南通社教频道
+http://10.0.1.201:8002/nantongshejiao.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 宁波一套
+http://10.0.1.201:8002/nbtv1.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 宁波二套
+http://10.0.1.201:8002/nbtv2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 宁波三套
+http://10.0.1.201:8002/nbtv3.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 宁波四套
+http://10.0.1.201:8002/nbtv4.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 宁波五套
+http://10.0.1.201:8002/nbtv5.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 上海新闻综合
+http://10.0.1.201:8002/shnews.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 厦门一套
+http://10.0.1.201:8002/xiamen1.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 厦门二套
+http://10.0.1.201:8002/xiamen2.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 厦门三套
+http://10.0.1.201:8002/xiamen3.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 厦门四套
+http://10.0.1.201:8002/xiamen4.mp4
+
+#EXTINF:-1 group-title="2>CN卫视", 西安新闻
+http://10.0.1.201:8002/xiannews.mp4

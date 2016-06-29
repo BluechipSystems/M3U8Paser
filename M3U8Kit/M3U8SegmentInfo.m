@@ -30,6 +30,19 @@
     return [[NSURL URLWithString:self.URI relativeToURL:baseURL] absoluteString];
 }
 
+- (NSString *)title {
+    return self.dictionary[M3U8_EXTINF_TITLE];
+}
+
+- (NSString *)tvgLogo {
+    return self.dictionary[M3U8_EXTINF_TITLE];
+}
+
+- (NSString *)groupTitle {
+    return self.dictionary[M3U8_EXTINF_TITLE];
+}
+
+
 - (NSTimeInterval)duration {
     return [self.dictionary[M3U8_EXTINF_DURATION] doubleValue];
 }

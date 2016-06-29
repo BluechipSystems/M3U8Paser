@@ -70,16 +70,26 @@
         
 		// Read the EXTINF number between #EXTINF: and the comma
 		NSRange commaRange = [remainingSegments rangeOfString:@","];
-        NSRange valueRange = NSMakeRange(segmentRange.location + 8, commaRange.location - (segmentRange.location + 8));
+        NSRange valueRange = NSMakeRange(segmentRange.location + segmentRange.length, commaRange.location - (segmentRange.location + segmentRange.length));
         if (commaRange.location == NSNotFound || valueRange.location > remainingSegments.length -1)
             break;
-        
 		NSString *value = [remainingSegments substringWithRange:valueRange];
-		[params setValue:value forKey:M3U8_EXTINF_DURATION];
+        NSRange spaceRange = [value rangeOfString:@" "];
+		[params setValue:[value substringToIndex:spaceRange.location] forKey:M3U8_EXTINF_DURATION];
         
-        // ignore the #EXTINF line
-        remainingSegments = [remainingSegments substringFromIndex:segmentRange.location];
+        NSRange tvgLogoRange = [value rangeOfString:M3U8_EXTINF_TVG_LOGO];
+        NSRange groupTitleRange = [value rangeOfString:M3U8_EXTINF_GROUP_TITLE];
+        [params setValue:[value substringWithRange:NSMakeRange(tvgLogoRange.location+tvgLogoRange.length + 2,groupTitleRange.location - (tvgLogoRange.location+tvgLogoRange.length+4))] forKey:M3U8_EXTINF_TVG_LOGO];
+        [params setValue:[value substringWithRange:NSMakeRange(groupTitleRange.location+groupTitleRange.length+2,value.length-(groupTitleRange.location+groupTitleRange.length+3))] forKey:M3U8_EXTINF_GROUP_TITLE];
+        
+        remainingSegments = [remainingSegments substringFromIndex:commaRange.location + commaRange.length + 1];
+        
+        // read to LF #EXTINF line
         NSRange extinfoLFRange = [remainingSegments rangeOfString:@"\n"];
+        valueRange = NSMakeRange(0, extinfoLFRange.location);
+        value = [remainingSegments substringWithRange:valueRange];
+        [params setValue:value forKey:M3U8_EXTINF_TITLE];
+        
         remainingSegments = [remainingSegments substringFromIndex:extinfoLFRange.location + 1];
         
         // Read the segment link, and ignore line start with # && blank line
