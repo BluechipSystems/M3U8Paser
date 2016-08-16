@@ -17,6 +17,22 @@
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary {
     if (self = [super init]) {
         self.dictionary = dictionary;
+        
+        //parse length and offset
+        NSString * range = self.dictionary[M3U8_EXT_X_BYTERANGE];
+        if(range) {
+            range = [range stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+            NSArray * components = [range componentsSeparatedByString:@"@"];
+            if(components.count > 0) {
+                _byteRangeLength = [components[0] longLongValue];
+            }
+            if(components.count > 1) {
+                _byteRangeOffset = [components[1] longLongValue];
+            }
+                     
+        }
+
+        
     }
     return self;
 }
@@ -50,6 +66,12 @@
 - (NSString *)URI {
     return self.dictionary[M3U8_EXTINF_URI];
 }
+
+-(BOOL)hasByteRange
+{
+    return self.dictionary[M3U8_EXT_X_BYTERANGE] != nil;
+}
+
 
 - (NSString *)description {
     return [NSString stringWithString:self.dictionary.description];

@@ -31,6 +31,10 @@
 @property (readonly, nonatomic) NSTimeInterval duration;
 @property (readonly, nonatomic) NSString *URI;
 
+@property (readonly, nonatomic) BOOL hasByteRange;
+@property (readonly, nonatomic) unsigned long long byteRangeLength;
+@property (assign, nonatomic) unsigned long long byteRangeOffset;
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 - (NSString *)mediaURL;
